@@ -11,12 +11,12 @@ struct Restriccion {
 };
 
 struct Solucion {
-    int mesas;    
-    int sillas;   
+    int mesas;
+    int sillas;
     double ganancia;
 };
 
-// Funciones basicas
+// Funciones básicas
 void ingresarPrecios(double& precio_mesas, double& precio_sillas);
 void ingresarRestricciones(std::vector<Restriccion>& restricciones);
 void mostrarFuncionGanancia(double precio_mesas, double precio_sillas,
@@ -24,7 +24,7 @@ void mostrarFuncionGanancia(double precio_mesas, double precio_sillas,
 Solucion calcularSolucionOptima(const std::vector<Restriccion>& restricciones,
     double precio_mesas, double precio_sillas);
 
-// Función graficaa principal de paso a de parametros 
+// Función gráfica
 void mostrarGrafica(const Solucion& solucion,
     const std::vector<Restriccion>& restricciones);
 
