@@ -24,7 +24,7 @@ void mostrarFuncionGanancia(double precio_mesas, double precio_sillas,
 Solucion calcularSolucionOptima(const std::vector<Restriccion>& restricciones,
     double precio_mesas, double precio_sillas);
 
-// Función graficaa de mierdaaaa
+// Función graficaa principal de paso a de parametros 
 void mostrarGrafica(const Solucion& solucion,
     const std::vector<Restriccion>& restricciones);
 
